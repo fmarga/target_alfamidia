@@ -1,0 +1,75 @@
+* {
+  background-color: #8008f0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-height: 100vh;
+}
+
+h1 {
+  font-size: 10em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+
+  color: #460485;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.gradiente {
+  background-image: linear-gradient(135deg, #8008f0, #7ffff0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+p {
+  color: whitesmoke;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  font-size: 1.7em;
+  text-align: justify;
+}
+
+.go {
+  font-weight: 800;
+  font-style: italic;
+  color: #8ed3e0;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  padding-top: 40px;
+}
+
+span {
+  color: #460485;
+}
+
+.init {
+  margin: 15px;
+  padding: 20px 70px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #460485;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  border-radius: 15px;
+  background-color: #8008f0;
+  border: 1px solid #460485;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.init:hover {
+  background-color: #460485;
+  border: 1px solid #460485;
+  color: whitesmoke;
+}
+
+.botao {
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
